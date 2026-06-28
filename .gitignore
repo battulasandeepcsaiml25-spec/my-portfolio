@@ -1,0 +1,78 @@
+# ─── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# ─── Compiled output & build artefacts ────────────────────────────────────────
+dist/
+out/
+build/
+tmp/
+out-tsc/
+*.tsbuildinfo
+.tsbuildinfo
+
+# ─── Vite / bundler cache ─────────────────────────────────────────────────────
+.vite/
+.vite-cache/
+**/.vite/
+
+# ─── Node dependencies ────────────────────────────────────────────────────────
+node_modules/
+.pnpm-store/
+.yarn/
+
+# ─── Source maps (generated, not needed in version control) ───────────────────
+*.js.map
+*.mjs.map
+*.cjs.map
+
+# ─── Test & coverage ──────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+test-results/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─── Generated code (re-created by codegen / tooling, do not commit) ──────────
+lib/api-client-react/src/generated/
+lib/api-zod/src/generated/
+artifacts/mockup-sandbox/src/.generated/
+
+# ─── IDEs & editors ───────────────────────────────────────────────────────────
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+*.launch
+.c9/
+
+# ─── OS generated files ───────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── Replit runtime files ─────────────────────────────────────────────────────
+.cache/
+.local/
+.replit-artifact/
